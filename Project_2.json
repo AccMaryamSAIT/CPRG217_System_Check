@@ -1,0 +1,433 @@
+{
+    "machine": "mb-ubuntu",
+    "cpu": {
+        "vendorID": "GenuineIntel",
+        "model": "186",
+        "mname": "13th Gen Intel(R) Core(TM) i7-1355U",
+        "cache": "12288 KB"
+    },
+    "users": [
+        {
+            "uname": "_apt",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "avahi",
+            "groups": [
+                "avahi"
+            ]
+        },
+        {
+            "uname": "avahi-autoipd",
+            "groups": [
+                "avahi-autoipd"
+            ]
+        },
+        {
+            "uname": "backup",
+            "groups": [
+                "backup"
+            ]
+        },
+        {
+            "uname": "bin",
+            "groups": [
+                "bin"
+            ]
+        },
+        {
+            "uname": "colord",
+            "groups": [
+                "colord"
+            ]
+        },
+        {
+            "uname": "cups-pk-helper",
+            "groups": [
+                "lpadmin"
+            ]
+        },
+        {
+            "uname": "daemon",
+            "groups": [
+                "daemon"
+            ]
+        },
+        {
+            "uname": "dnsmasq",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "games",
+            "groups": [
+                "games"
+            ]
+        },
+        {
+            "uname": "gdm",
+            "groups": [
+                "gdm"
+            ]
+        },
+        {
+            "uname": "geoclue",
+            "groups": [
+                "geoclue"
+            ]
+        },
+        {
+            "uname": "gnats",
+            "groups": [
+                "gnats"
+            ]
+        },
+        {
+            "uname": "gnome-initial-setup",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "hplip",
+            "groups": [
+                "lp"
+            ]
+        },
+        {
+            "uname": "irc",
+            "groups": [
+                "irc"
+            ]
+        },
+        {
+            "uname": "kernoops",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "list",
+            "groups": [
+                "list"
+            ]
+        },
+        {
+            "uname": "lp",
+            "groups": [
+                "lp"
+            ]
+        },
+        {
+            "uname": "mail",
+            "groups": [
+                "mail"
+            ]
+        },
+        {
+            "uname": "man",
+            "groups": [
+                "man"
+            ]
+        },
+        {
+            "uname": "maryam",
+            "groups": [
+                "maryam",
+                "adm",
+                "cdrom",
+                "sudo",
+                "dip",
+                "plugdev",
+                "lpadmin",
+                "lxd",
+                "sambashare"
+            ]
+        },
+        {
+            "uname": "messagebus",
+            "groups": [
+                "messagebus"
+            ]
+        },
+        {
+            "uname": "news",
+            "groups": [
+                "news"
+            ]
+        },
+        {
+            "uname": "nm-openvpn",
+            "groups": [
+                "nm-openvpn"
+            ]
+        },
+        {
+            "uname": "nobody",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "proxy",
+            "groups": [
+                "proxy"
+            ]
+        },
+        {
+            "uname": "pulse",
+            "groups": [
+                "pulse",
+                "audio"
+            ]
+        },
+        {
+            "uname": "root",
+            "groups": [
+                "root"
+            ]
+        },
+        {
+            "uname": "rtkit",
+            "groups": [
+                "rtkit"
+            ]
+        },
+        {
+            "uname": "saned",
+            "groups": [
+                "saned",
+                "scanner"
+            ]
+        },
+        {
+            "uname": "speech-dispatcher",
+            "groups": [
+                "audio"
+            ]
+        },
+        {
+            "uname": "sync",
+            "groups": [
+                "nogroup"
+            ]
+        },
+        {
+            "uname": "sys",
+            "groups": [
+                "sys"
+            ]
+        },
+        {
+            "uname": "syslog",
+            "groups": [
+                "syslog",
+                "adm",
+                "tty"
+            ]
+        },
+        {
+            "uname": "systemd-coredump",
+            "groups": [
+                "systemd-coredump"
+            ]
+        },
+        {
+            "uname": "systemd-network",
+            "groups": [
+                "systemd-network"
+            ]
+        },
+        {
+            "uname": "systemd-resolve",
+            "groups": [
+                "systemd-resolve"
+            ]
+        },
+        {
+            "uname": "systemd-timesync",
+            "groups": [
+                "systemd-timesync"
+            ]
+        },
+        {
+            "uname": "tcpdump",
+            "groups": [
+                "tcpdump"
+            ]
+        },
+        {
+            "uname": "tss",
+            "groups": [
+                "tss"
+            ]
+        },
+        {
+            "uname": "usbmux",
+            "groups": [
+                "plugdev"
+            ]
+        },
+        {
+            "uname": "uucp",
+            "groups": [
+                "uucp"
+            ]
+        },
+        {
+            "uname": "uuidd",
+            "groups": [
+                "uuidd"
+            ]
+        },
+        {
+            "uname": "whoopsie",
+            "groups": [
+                "whoopsie"
+            ]
+        },
+        {
+            "uname": "www-data",
+            "groups": [
+                "www-data"
+            ]
+        }
+    ],
+    "services": [
+        {
+            "sname": "accounts-daemon.service",
+            "status": "running"
+        },
+        {
+            "sname": "acpid.service",
+            "status": "running"
+        },
+        {
+            "sname": "avahi-daemon.service",
+            "status": "running"
+        },
+        {
+            "sname": "bluetooth.service",
+            "status": "running"
+        },
+        {
+            "sname": "colord.service",
+            "status": "running"
+        },
+        {
+            "sname": "cron.service",
+            "status": "running"
+        },
+        {
+            "sname": "cups-browsed.service",
+            "status": "running"
+        },
+        {
+            "sname": "cups.service",
+            "status": "running"
+        },
+        {
+            "sname": "dbus.service",
+            "status": "running"
+        },
+        {
+            "sname": "gdm.service",
+            "status": "running"
+        },
+        {
+            "sname": "irqbalance.service",
+            "status": "running"
+        },
+        {
+            "sname": "kerneloops.service",
+            "status": "running"
+        },
+        {
+            "sname": "ModemManager.service",
+            "status": "running"
+        },
+        {
+            "sname": "networkd-dispatcher.service",
+            "status": "running"
+        },
+        {
+            "sname": "NetworkManager.service",
+            "status": "running"
+        },
+        {
+            "sname": "open-vm-tools.service",
+            "status": "running"
+        },
+        {
+            "sname": "polkit.service",
+            "status": "running"
+        },
+        {
+            "sname": "rsyslog.service",
+            "status": "running"
+        },
+        {
+            "sname": "rtkit-daemon.service",
+            "status": "running"
+        },
+        {
+            "sname": "snapd.service",
+            "status": "running"
+        },
+        {
+            "sname": "switcheroo-control.service",
+            "status": "running"
+        },
+        {
+            "sname": "systemd-journald.service",
+            "status": "running"
+        },
+        {
+            "sname": "systemd-logind.service",
+            "status": "running"
+        },
+        {
+            "sname": "systemd-resolved.service",
+            "status": "running"
+        },
+        {
+            "sname": "systemd-timesyncd.service",
+            "status": "running"
+        },
+        {
+            "sname": "systemd-udevd.service",
+            "status": "running"
+        },
+        {
+            "sname": "udisks2.service",
+            "status": "running"
+        },
+        {
+            "sname": "unattended-upgrades.service",
+            "status": "running"
+        },
+        {
+            "sname": "upower.service",
+            "status": "running"
+        },
+        {
+            "sname": "user@1000.service",
+            "status": "running"
+        },
+        {
+            "sname": "vgauth.service",
+            "status": "running"
+        },
+        {
+            "sname": "whoopsie.service",
+            "status": "running"
+        },
+        {
+            "sname": "wpa_supplicant.service",
+            "status": "running"
+        }
+    ]
+}

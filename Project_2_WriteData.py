@@ -1,8 +1,8 @@
 """
 Name: Project_2_WriteData
 Authors: Roman Kapitoulski, Eric Russon, Maryam Bunama
-Version: 1.1
-Date: June 5, 2023
+Version: 1.2
+Date: June 9, 2023
 Description: This code scans a linux machine and retrieves the machine's name, CPU info details, users and the groups 
 they belong to, and the list of running services using classes and objects. Then, it takes the data and places it 
 into a JSON file ready to be used by the second script in the program. 
@@ -125,6 +125,28 @@ class Machine:
     
     def asdict(self):
         return {"machine": self._name}
+    
+    def toDict(self):
+        # Places user and service objects in dictionary and returns a dictionary for all class attributes
+        users = []
+        services = []
+
+        for user in self.getUsers():
+            userJson = user.asdict()
+            users.append(userJson)
+
+        for service in self.getServices():
+            serviceJson = service.asdict()
+            services.append(serviceJson)
+        
+        return {"machine": self._name, "cpu": self._cpu.asdict(), "users": users, "services": services}
+ 
+
+
+
+
+
+
 
 
 ### Retrieve machine name
@@ -268,15 +290,10 @@ for line in services:
         machine.addService(Service(name, status))
 
 ## Playground
-print(machine.asdict())
 
-for service in machine.getServices():
-    print(service.asdict())
+fullDict = machine.toDict()
+
+with open('Project_2.json', 'w') as jsonBody:
+    f = json.dumps(fullDict, indent = 4)
+    jsonBody.write(f)
     
-for user in machine.getUsers():
-	print(user.asdict())
-
-print(machine.getCpu().asdict())
-
-print(json.dumps(machine.asdict()), json.dumps(service.asdict()))
-
