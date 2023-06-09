@@ -293,7 +293,6 @@ for line in services:
 
 fullDict = machine.toDict()
 
-with open('Project_2.json', 'w') as jsonBody:
-    f = json.dumps(fullDict, indent = 4)
-    jsonBody.write(f)
-    
+with open('Project_2.json', 'wt') as jsonBody:
+    json.dump(fullDict, jsonBody, indent = 4)
+
