@@ -28,7 +28,8 @@ machine_list = [[info['machine'], cpu_info]]
 users_info = []
 for user in info['users']:
     user_info = []
-    groups_info = ', '.join(user['groups'])
+    sorted_groups_info = sorted(user['groups'])
+    groups_info = ', '.join(sorted_groups_info)
     user_info.append(f"{user['uname']}")
     user_info.append(groups_info)
     users_info.append(user_info)
