@@ -28,8 +28,9 @@ machine_list = [[info['machine'], cpu_info]]
 users_info = []
 for user in info['users']:
     user_info = []
+    groups_info = ', '.join(user['groups'])
     user_info.append(f"{user['uname']}")
-    user_info.append(f"{user['groups']}")
+    user_info.append(groups_info)
     users_info.append(user_info)
 
 # Created list for tabular using a for loop that contains service names and statuses.
